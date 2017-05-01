@@ -1,9 +1,7 @@
 import vrtigo from 'vrtigo-analytics';
 import { VrHeadModel } from 'react-vr';
 
-const collectPose = function() {
-  return VrHeadModel.rotationOfHeadMatrix();
-};
+const collectPose = () => VrHeadModel.rotationOfHeadMatrix();
 
 vrtigo.setPoseFunction(collectPose);
 
@@ -19,5 +17,4 @@ export default {
   submit: vrtigo.submit,
   setUserId: vrtigo.setUserId,
   setAppId: vrtigo.setAppId,
-  submit: vrtigo.submit
 };
