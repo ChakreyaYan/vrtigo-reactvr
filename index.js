@@ -19,5 +19,10 @@ export default {
   submit: vrtigo.submit,
   setUserId: vrtigo.setUserId,
   setAppId: vrtigo.setAppId,
+  startInteractiveScene: vrtigo.startInteractiveScene,
+  presentChoice: vrtigo.presentChoice,
+  userChoice: vrtigo.userChoice,
+  forceChoice: vrtigo.forceChoice,
+  endInteractiveScene: vrtigo.endInteractiveScene,
   submit: vrtigo.submit
 };
